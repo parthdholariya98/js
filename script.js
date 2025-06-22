@@ -1,8 +1,9 @@
-let accountEmail = "abc#hc.com";
-let accountName = "abc";
-let accountPassword = "12548";
-let accountCity = "Jaypur";
+// let accountEmail = "abc#hc.com";
+// let accountName = "abc";
+// let accountPassword = "12548";
+// let accountCity = "Jaypur";
 
-console.table([accountEmail, accountName, accountCity, accountPassword]);
+// console.table([accountEmail, accountName, accountCity, accountPassword]);
 
-console.log();
+console.log(+true);
+console.log("");
