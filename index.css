@@ -36,3 +36,15 @@ li a{
     font-weight: bold;
     margin-right: 25xp;
 }
+
+button{
+    font-size: 20px;
+    border-radius: 15px;
+    width: 6rem;
+    height: 2rem;
+    
+}
+
+button a {
+    color: black;
+}
