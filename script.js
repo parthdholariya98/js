@@ -3,6 +3,8 @@
 // let accountPassword = "12548";
 // let accountCity = "Jaypur";
 
+
+
 // console.table([accountEmail, accountName, accountCity, accountPassword]);
 
 // console.log(+true);
@@ -94,10 +96,105 @@
 // console.log(Array.from("parth"));
 
 
-let score = 100
-let score_1 = 200
-let score_2 = 300
-let score_3 = 400
-let score_4 = 500
+// let score = 100
+// let score_1 = 200
+// let score_2 = 300
+// let score_3 = 400
+// let score_4 = 500
 
-console.log(Array.of(score, score_1, score_2, score_3, score_4));
+// console.log(Array.of(score, score_1, score_2, score_3, score_4));
+
+
+
+// const people = [
+//     {name : 'parth', age: 20, role: "SDE intern"},
+//     {name : 'Prince', age: 29, role: "Dev intern"},
+//     {name : 'Mohit', age: 35, role: "App intern"},
+    
+// ];
+
+// // callback funcation
+// function showPerson (person) {
+//     console.log(person.name.toUpperCase());
+    
+// }
+
+// people.forEach(showPerson);
+
+// people.forEach( (person) => {
+//     console.log(people.age);
+    
+// })
+
+
+// const ageGrreater = people.filter((obj) => {
+//     return obj.age > 25;
+// })
+
+// console.log(ageGrreater);
+
+// const mySym = Symbol("Key1")
+
+const user = {
+    name: "parth",
+    age: 21,
+    // [mySym]: "mykey1",
+    email: "parth@gmail.com",
+    isLogin: false,
+};
+
+// console.log(user);
+// console.log(user[mySym]);
+
+// user.greeting = function(){
+//     console.log(`Hello ${this.name} users`);
+    
+// }
+// user.greetingTwo = function(){
+//     console.log(`users is a age of ${this.age}`);
+    
+// }
+// console.log(user.greeting());
+// console.log(user.greetingTwo());
+
+// const obj1 = { a: "1", b:  "2", c: "3"}
+// const obj2 = { d: "1", e: "2", f: "3"}
+
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+// const cource = {
+//     courcename: "js",
+//     courcePrice: "999"
+
+// }
+
+// const {courcePrice: price} = cource
+
+// console.log(price);
+
+// function myName () {
+//     console.log("p");
+//     console.log("a");
+
+    
+    
+// }
+// myName()
+
+
+// function AddTwoNumber(number1, number2) {
+//     let result = number1 + number2
+//     return result
+    
+// }
+
+// const result = AddTwoNumber(3, 5)
+// console.log("Result:", result);
+
+
+// AddTwoNumber(5, "3")
+
+
+
+
